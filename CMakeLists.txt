@@ -3,4 +3,6 @@ project(oop_course_3rd_task)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(oop_course_3rd_task main.cpp ROV.cpp ROV.h Mission.cpp Mission.h Visitor.cpp Visitor.h Input.cpp Input.h)
+include_directories(includes)
+
+add_executable(oop_course_3rd_task srcs/main.cpp srcs/ROV.cpp includes/ROV.h srcs/Mission.cpp includes/Mission.h srcs/Visitor.cpp includes/Visitor.h srcs/Input.cpp includes/Input.h)

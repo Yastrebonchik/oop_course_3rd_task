@@ -187,5 +187,5 @@ bool ROV::listMission() {
 }
 
 void ROV::printPosition() {
-	std::cout << "ROV depth is " << this->_z << " .X is " << this->_x << " and Y is " << this->_y << std::endl;
+	std::cout << "ROV depth is " << this->_z << ". X is " << this->_x << " and Y is " << this->_y << std::endl;
 }
